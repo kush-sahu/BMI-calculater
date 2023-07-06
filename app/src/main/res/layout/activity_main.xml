@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sd"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editwt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/app_wt"
+        android:inputType="number"
+        android:textColorHint="#F6F4F4" />
+
+    <EditText
+        android:id="@+id/editft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/app_ft"
+        android:inputType="number"
+        android:textColorHint="#F6F4F4" />
+
+    <EditText
+        android:id="@+id/editin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/app_in"
+        android:inputType="number"
+        android:textColorHint="#F6F4F4" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="67sp"
+        android:text="Result calculate"
+        android:textColor="#F6F4F4"
+        android:textSize="21sp" />
+
+
+    <Button
+        android:id="@+id/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="45sp"
+        android:text="BMI Check"
+
+        android:textColor="#F1EEEE" />
+
+
+</LinearLayout>
